@@ -1,5 +1,13 @@
-# BwE PS5 NOR Validator (Statistics Version)
+# BwE VT Analysis
 
-BwE PS5 NOR Validator (Pre-Alpha). Designed to validate the entire raw and semi-encrypted firmware of a PlayStation 5. Created using Perl. Not recommended for use at this stage. Please wait for future developments and additional flash dumps. The next update will actually begin to extract and validate the individual files within the flash.
+Basically a quick and easy Virus Total scanner which can be attached as a context menu item within Windows. Compiled for x64.
 
-![GitHub Logo](https://i.imgur.com/4QgbBnh.png)
+Create the following in the registry:
+
+* Computer\HKEY_CLASSES_ROOT\*\shell\BwE VT Analysis\
+* @="BwE VT Analysis"
+* Computer\HKEY_CLASSES_ROOT\*\shell\BwE VT Analysis\Command
+* @="C:\WHEREVERYOUWANTEDIT\BwE_VT_Analysis.exe "%1""
+
+
+![Github Logo](https://i.imgur.com/4QgbBnh.png)
