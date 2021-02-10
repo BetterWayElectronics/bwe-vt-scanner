@@ -1,13 +1,10 @@
-# BwE VT Analysis
+# BwE Virus Total Context Scanner
 
-Basically a quick and easy Virus Total scanner which can be attached as a context menu item within Windows. Compiled for x64.
+Basically a quick and easy Virus Total scanner which creates a context menu item within Windows. Compiled for x64.
 
-Create the following in the registry:
+You need the Virus Total API key for it to run. Register for free at https://www.virustotal.com/gui/join-us/ to get one.
 
-* Computer\HKEY_CLASSES_ROOT\*\shell\BwE VT Analysis\
-* @="BwE VT Analysis"
-* Computer\HKEY_CLASSES_ROOT\*\shell\BwE VT Analysis\Command
-* @="C:\WHEREVERYOUWANTEDIT\BwE_VT_Analysis.exe "%1""
+This program needs to be run as administrator in order to store your API key in the registry.
 
 
 ![Github Logo](https://i.imgur.com/4QgbBnh.png)
