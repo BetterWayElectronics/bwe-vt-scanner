@@ -6,5 +6,7 @@ You need the Virus Total API key for it to run. Register for free at https://www
 
 This program needs to be run as administrator in order to store your API key in the registry.
 
+Proudly made entirely in Perl <3
 
-![Github Logo](https://i.imgur.com/4QgbBnh.png)
+
+![Github Logo](https://i.imgur.com/JFeSK7j.png)
